@@ -55,3 +55,17 @@ A listagem deve ser ordenada pelo nome do médico, de maneira crescente, bem com
 <h1 align="center">
   <img alt="" title="" src="github/listagem-medicos.png">
 </h1>
+
+**Atualização de médicos**
+
+O sistema deve possuir uma funcionalidade de atualização de dados cadastrais de médicos, na qual as seguintes informações poderão ser atualizadas:
+
+- [x] Nome
+- [x] Telefone
+- [x] Endereço completo (logradouro, número, complemento, bairro, cidade, UF e CEP)
+
+As seguintes regras de negócio devem ser validadas pelo sistema:
+
+- Não permitir a alteração do e-mail do médico;
+- Não permitir a alteração do CRM do médico;
+- Não permitir a alteração da Especialidade do médico.
