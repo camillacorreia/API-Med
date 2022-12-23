@@ -69,3 +69,22 @@ As seguintes regras de negócio devem ser validadas pelo sistema:
 - Não permitir a alteração do e-mail do médico;
 - Não permitir a alteração do CRM do médico;
 - Não permitir a alteração da Especialidade do médico.
+
+<h1 align="center">
+  <img alt="" title="" src="github/edicao-medico.png">
+</h1>
+
+**Inativação de médicos**
+
+O sistema deve possuir uma funcionalidade que permita a exclusão de médicos cadastrados.
+
+As seguintes regras de negócio devem ser validadas pelo sistema:
+
+- A exclusão não deve apagar os dados do médico, mas torná-lo como "inativo" no sistema.
+
+- Não poderá ser realizada a exclusão caso existam consultas agendadas.
+
+<h1 align="center">
+  <img alt="" title="" src="github/inativacao.png">
+</h1>
+
