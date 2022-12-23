@@ -34,3 +34,24 @@ Todas as informações são de preenchimento obrigatório, exceto o número e o 
 <h1 align="center">
   <img alt="" title="" src="github/novo-perfil.png">
 </h1>
+
+**Listagem de médicos**
+
+O sistema deve possuir uma funcionalidade de listagem de médicos, na qual as seguintes informações, de cada um dos médicos cadastrados, deverão ser exibidas:
+
+- [x] Nome
+- [x] E-mail
+- [x] CRM
+- [x] Especialidade (Ortopedia, Cardiologia, Ginecologia ou Dermatologia)
+
+```shell
+A listagem deve ser ordenada pelo nome do médico, de maneira crescente, bem como ser paginada, trazendo 10 registros por página.
+```
+
+``
+/medicos?size=2&page=0&sort=nome
+``
+
+<h1 align="center">
+  <img alt="" title="" src="github/listagem-medicos.png">
+</h1>
