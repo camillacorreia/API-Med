@@ -4,10 +4,12 @@
 
 API Rest em JAVA da aplicação Voll.med com o intuito de cadastrar médicos e pacientes, além de agendar consultas.
 
-- Flyway como ferramenta de Migrations.
-- Maven como gerenciador de dependências.
+- Sprint Boot 3.
 - Banco de Dados MySQL.
+- Maven como gerenciador de dependências.
+- Flyway como ferramenta de Migrations.
 - Lombok para produtividade e redução de código boilerplate.
+- Bean Validation para validações.
 
 <h1 align="center">
   <img alt="" title="" src="github/home.png">
