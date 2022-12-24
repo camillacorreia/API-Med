@@ -10,6 +10,7 @@ API Rest em JAVA da aplicação Voll.med com o intuito de cadastrar médicos e p
 - Flyway como ferramenta de Migrations.
 - Lombok para produtividade e redução de código boilerplate.
 - Bean Validation para validações.
+- Spring Security para segurança, autenticação, autorização e proteção contra-ataques.
 
 <h1 align="center">
   <img alt="" title="" src="github/home.png">
