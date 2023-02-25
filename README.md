@@ -18,6 +18,8 @@ API Rest em JAVA da aplicação Voll.med com o intuito de cadastrar médicos e p
 ```shell
 mvn clean install
 
+docker-compose build
+
 docker-compose up
 ```
 
