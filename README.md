@@ -13,6 +13,14 @@ API Rest em JAVA da aplicação Voll.med com o intuito de cadastrar médicos e p
 - Bean Validation para validações.
 - Spring Security para segurança, autenticação, autorização e proteção contra-ataques.
 
+### To run
+
+```shell
+mvn clean install
+
+docker-compose up
+```
+
 <h1 align="center">
   <img alt="" title="" src="github/home.png">
 </h1>
