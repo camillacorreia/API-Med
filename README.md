@@ -38,7 +38,6 @@ docker-compose up
 
 ## Arquitetura
 
----
 
 ## 🎨 Layout
 

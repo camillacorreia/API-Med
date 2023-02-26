@@ -7,6 +7,9 @@ services:
       - 8080:8080
     depends_on:
       - mysql-db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/vollmed_api
+      SPRING_DATASOURCE_URL_TEST: jdbc:mysql://mysql-db-test:3307/vollmed_api_test
   mysql-db:
     image: mysql
     restart: always
@@ -14,6 +17,16 @@ services:
       - 3306:3306
     environment:
       MYSQL_DATABASE: vollmed_api
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+  mysql-db-test:
+    image: mysql
+    restart: always
+    ports:
+      - 3307:3306
+    environment:
+      MYSQL_DATABASE: vollmed_api_test
       MYSQL_USER: user
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password
