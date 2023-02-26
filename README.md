@@ -41,6 +41,16 @@ docker-compose up
 
 ## Arquitetura
 
+<h1 align="center">
+  <img alt="" title="" src="github/arquitetura.png">
+</h1>
+
+- DTO (Data Transfer Object): Representa os dados que estão chegando e saindo.
+- Controller: É responsável por intermediar as requisições.
+- Service: É responsável pela regra de negócio.
+- Repository: É responsável por isolar os objetos ou entidades do domínio do código que acessa o banco de dados.
+- Entity: É onde todas as informações inseridas em um banco de dados relacional são armazenadas. É uma estrutura formada por linhas e colunas onde cada linha consiste de, pelo menos, uma ou várias colunas.
+
 
 ## 🎨 Layout
 
