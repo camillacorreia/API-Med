@@ -2,10 +2,15 @@
   <img alt="" title="" src="github/banner.png">
 </h1>
 
-API Rest em JAVA da aplicação Voll.med com o intuito de cadastrar médicos e pacientes, além de agendar consultas.
+API Rest em JAVA da aplicação Voll.med com o intuito de cadastrar médicos e pacientes, além de agendar e cancelar consultas.
 
-- Sprint Boot 3.
-- Banco de Dados MySQL.
+## Documentação
+
+A documentação das funcionalidades da aplicação pode ser acessada neste link: <a href="https://trello.com/b/SS9lH0Op/api-voll-med">Trello</a>
+
+- Java 17
+- Sprint Boot 3
+- Banco de Dados MySQL
 - Maven como gerenciador de dependências.
 - Flyway como ferramenta de Migrations.
 - Hibernate para mapeamento objeto/relacional (ORM).
@@ -99,4 +104,10 @@ As seguintes regras de negócio devem ser validadas pelo sistema:
 <h1 align="center">
   <img alt="" title="" src="github/inativacao.png">
 </h1>
+
+---
+
+## 🎨 Layout
+
+O layout da aplicação mobile está disponível neste link: <a href="https://www.figma.com/file/h2y2D0ImbXtpxqPqS4UFQ8/Voll.med?t=eEkj6ahn0Genw1Fz-0">Figma</a>
 
