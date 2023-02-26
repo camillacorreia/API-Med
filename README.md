@@ -4,10 +4,6 @@
 
 API Rest em JAVA da aplicação Voll.med com o intuito de cadastrar médicos e pacientes, além de agendar e cancelar consultas.
 
-## Documentação
-
-A documentação das funcionalidades da aplicação pode ser acessada neste link: <a href="https://trello.com/b/SS9lH0Op/api-voll-med">Trello</a>
-
 - Java 17
 - Sprint Boot 3
 - Banco de Dados MySQL
@@ -17,6 +13,18 @@ A documentação das funcionalidades da aplicação pode ser acessada neste link
 - Lombok para produtividade e redução de código boilerplate.
 - Bean Validation para validações.
 - Spring Security para segurança, autenticação, autorização e proteção contra-ataques.
+- SpringDoc para documentação da API.
+
+## Documentação das funcionalidades
+
+A documentação das funcionalidades da aplicação pode ser acessada neste link: <a href="https://trello.com/b/SS9lH0Op/api-voll-med">Trello</a>
+
+## Documentação da API
+
+```shell
+http://localhost:8080/swagger-ui.html
+http://localhost:8080/v3/api-docs
+```
 
 ### To run
 
