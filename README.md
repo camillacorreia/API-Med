@@ -27,7 +27,7 @@ http://localhost:8080/swagger-ui.html
 http://localhost:8080/v3/api-docs
 ```
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Voll%20Med%20API&uri=https%3A%2F%2Fgithub.com%2Fcamillacorreia%2FAPI-Med%2Fblob%2Fmaster%2FInsomnia_2023-02-26.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://github.com/camillacorreia/API-Med/blob/master/Insomnia_2023-02-26.json)
 
 ## To run
 
